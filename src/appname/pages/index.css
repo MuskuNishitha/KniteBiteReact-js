@@ -1,0 +1,437 @@
+
+*{
+    padding:0%;
+    margin:0%;
+    font-family:"Nunito";
+    /* list-style:none; */
+    text-decoration: none;
+}
+
+#navbar{
+    top:0px;
+position: absolute;
+display: flex;
+}
+#flexnavbar{
+    top:0px;
+    z-index:9999;
+    position:fixed;
+    height:80px;
+    width:1380px;
+    background-color:rgba(0, 0, 0, 0.12);
+    color:white
+}
+#links{
+    display: flex;
+    gap:50px;
+    margin-left:700px;
+    /* margin-top:20px;  */
+    margin-top:25px;
+    font-size:19px;
+  
+}
+.link{
+    font-family: Nunito;
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+}
+#menudiv{
+    top:0px;
+    position: relative;
+}
+#menudiv img{
+    height:800px;
+    width:1350px;
+}
+#girid{
+    top:130px;
+    position: absolute;
+    color:white;
+    display: grid;
+    grid-template-rows:220px 220px  220px;
+    gap:100px;
+    grid-template-columns:220px 220px 220px;
+    margin-left:250px;
+}
+#gridinside{
+    height:270px;
+    text-align: center;
+    width:220px;
+    /* border:1px solid white; */
+}
+#img111{
+    height:150px;
+    width:100px;
+}
+#img112{
+    height:50px;
+    width: 150px;
+}
+#divpage{
+    width:1350px;
+    height:60px;
+    margin-top:0px;
+    padding-top:20px;
+    background-color: rgb(246, 114, 140);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border:1px solid  rgb(250, 141, 162);
+}
+/* "nicotineregular" */
+
+.abutiimg{
+    height:700px;
+    width:1400px;
+}
+#paradiv{
+    top: 160px;
+    position: absolute;
+    height:400px;
+    margin-left:60px;
+    width:450px;
+    color:white;
+    /* border:1px solid red; */
+    
+}
+
+#paradiv h1{
+    font-family: "nicotineregular" ;
+   font-weight:bold;
+    letter-spacing:1px;
+ 
+}
+#maindivco{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top:100px; */
+}
+#fulldiv{
+    height:1700px;
+    width:1350px;
+    background-color: rgb(238, 235, 235);
+}
+#imagandpara{
+    margin-left:100px;
+    padding-top:100px;
+}
+#divtagpara{
+    width:600px;
+    font-size:24px;
+    letter-spacing:1px;
+    color: #424242;
+    font-weight: normal;
+}
+#secondpara{
+    margin-top:120px;
+}
+#displayinne{
+    margin-right:80px;
+    display: flex;
+    justify-content: space-around;
+}
+#displayinne img{
+    height:400px;
+    width:550px;
+}
+#pararas{
+    width:530px;
+    height:300px;
+    /* border:1px solid red; */
+    font-size:20px;
+    letter-spacing:1px;
+    margin-top:90px;
+    margin-left:100px;
+    color: #424242;
+    font-weight: normal;
+}
+#buggarpara{
+    top:180px;
+    position: relative;
+}
+#locationimages{
+    top:290px;
+    position: relative;
+    display: flex;
+    margin-right:100px;
+    justify-content: space-evenly;
+}
+#us{
+    padding-left:60px;
+}
+#h4andp{
+    display: flex;
+    margin-top:-5px;
+}
+#h4andp h4{
+    font-weight: 700;
+    font-family:"Nunito";
+}
+#h4andp p{
+    font-size:18px;
+}
+#imghome{
+    width:1350px;
+    height:700px;
+}
+#clickaway{
+    font-size:55px;
+    font-weight:800;
+    font-family:"nicotineregular";
+    letter-spacing:3px;
+}
+#divarres{
+    color: white;
+    top:220px;
+    margin: auto;
+    margin-left:200px;
+    position: absolute;
+}
+#order{
+    top:110px;
+    margin: auto;
+    margin-left:200px;
+    position: absolute;   
+}
+#order button{
+    height:50px;
+    width:200px;
+    border:none;
+    border-radius:10px;
+}
+
+#order button img{
+    margin-top:-15px;
+    height:90px;
+    width:200px; 
+}
+#onweb{
+    color:white;
+    background-color: rgb(219, 65, 96);
+    border:none;
+    letter-spacing:2px;
+    font-size:18px;
+    margin-left:200px;
+}
+#orrrr{
+    margin-top:10px;
+    margin-left:280px;
+}
+#onemebb{
+    text-transform:uppercase;
+    margin-top:20px;
+    margin-left:90px;
+    display: flex;
+    gap:30px;
+}
+#divtagggg{
+    top:-10px;
+    position: relative;
+    height:2770px;
+    width:1350px;
+    background-color: rgb(240, 236, 236);
+}
+#displayimgcon{
+    display: flex;
+    gap:60px;
+    padding-top:50px;
+    margin-left:80px;
+    font-size:22px;
+}
+#displayimgcon img{
+    height:200px;
+    width:180px;
+}
+#displayimgcon p{
+    margin-top:20px;
+}
+#divtagggg{
+  padding-top:110px;
+}
+#divtagggg h1{
+    text-align: center;
+    font-size:54px;
+    font-weight: 700;
+}
+#bannerimg{
+    top:100px;
+    position: relative;
+}
+#seefull{
+top:2000px;
+color:white;
+font-size:22px;
+position: absolute;
+    border-radius:50px;
+    width:250px;
+    height:50px;
+    border:1px solid gainsboro;
+    background-color: transparent;
+margin-left:540px;
+
+}
+
+#contactus{
+    margin-top:40px;
+}
+#threecontactdiv{
+    margin-top:100px;
+    display: flex;
+    margin-left:120px;
+    gap:140px;
+    font-size:20px ;
+}
+
+#mailphoneflex{
+    margin-top:0px;
+    width:250px;
+    display: flex;
+    gap:20px
+}
+#headoffie{
+    margin-top:-70px;
+    display: flex;
+    gap:140px;
+    margin-left:120px;
+}
+#innerhead{
+    width:300px;
+    font-size:18px;
+    height:180px;
+}
+#location{
+width:180px;
+font-size:18px;
+}
+#centertwo{
+    margin-top:30px;
+    margin-left:550px;
+    display: flex;
+    gap:20px;
+}
+#input{
+ 
+    width:300px;
+border:1px solid black;
+border-radius:5px;
+    height:50px;
+}
+#applynow{
+    width:200px;
+    height:50px;
+    color:white;
+    border:none;
+    border-radius:30px;
+    font-size:19px;
+    background-color: #FF5672;
+}
+
+#franchiseh1{
+   font-family:"nicotineregular";
+   top:200px;
+   text-align: center;
+   margin-left:200px;
+   position: absolute;
+   color:white;
+}
+#franchiseh1 h1{
+    font-size:60px;
+    letter-spacing:2px;
+    text-shadow:0px 0px 5px white;
+    font-weight: bolder;
+    word-spacing:2px;
+}
+#franchiseh1 button{
+    margin-top:40px;
+}
+#franchiseh1 h3{
+    font-size:36px;
+    letter-spacing:2px;
+    text-shadow:0px 0px 5px white;
+    font-weight: bolder;
+    word-spacing:2px;
+}
+#backgroundcolorgray{
+    height:2500px;
+    background-color: rgb(234, 233, 233);
+    width:1350px;
+    
+}
+#missin{
+    text-align: center;
+    padding-top:100px;
+}
+#missin h1{
+    font-weight: bold;
+}
+#missin P{
+
+    font-size:20px;
+}
+#hr{
+    margin-top:40px;
+    width:1200px;
+   margin-left:80px;
+    border:2px solid rgb(206, 25, 206);
+}
+#heybenefite{
+    top:50px;
+    text-align: center;
+    position: relative;
+}
+#displygir{
+    margin-top:130px;
+    display: grid;
+    grid-template-columns:350px 350px 350px;
+    grid-template-rows:250px 250px ;
+    gap:50px;
+    text-align: center;
+    margin-left:80px;
+    padding-top:20px;
+}
+#imgh4p h4,#imgh4p p{
+padding-top:20px;
+font-size:18px;
+}
+#maindiviapp{
+    margin-top:-910px;
+    text-align: center;
+}
+#maindiviapp h2{
+    font-weight: bold;
+
+}
+#maindiviapp p{
+    font-size: 20px;
+}
+#buttonexport{
+    text-align: center;
+    margin-top:500px;
+}
+#margintophr{
+    margin-top:400px;
+}
+#imagapapap{
+    display: flex;
+    gap:10px;
+}
+#imagapapap img{
+    height:30px;
+    width:50px;
+}
+#imagparael{
+    text-align: center;
+    gap:150px;
+    margin-left:250px;
+    margin-top:100px;
+    display: flex;
+}
+.link:hover{
+color:#FF5672;
+transition:0.5 all;
+}
+/* #hoverrrr:hover{
+    height:50px;
+    width:60px;    
+} */
